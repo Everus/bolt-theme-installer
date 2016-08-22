@@ -12,9 +12,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Everus\\Composer\\": "src/"}
+        "psr-4": {"\\Everus\\Composer\\": "src/"}
     },
     "extra": {
-        "class": "Everus\\Composer\\ThemeInstallerPlugin"
+        "class": "\\Everus\\Composer\\ThemeInstallerPlugin"
     }
 }
