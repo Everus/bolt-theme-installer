@@ -1,0 +1,20 @@
+{
+    "name": "supplychain1/supplychain-theme-installer",
+    "description": "Custom installer for supplychain theme.",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Mark",
+            "email": "oper29a@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"SupplyChain\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "SupplyChain\\Composer\\TemplateInstallerPlugin"
+    }
+}
