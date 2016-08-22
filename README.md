@@ -6,8 +6,14 @@ Just add
     "name": "supplychain1/theme-<packagename>",
     "type": "bolt-template",
     "require": {
-        "phpdocumentor/template-installer-plugin": "*"
-    }
+        "supplychain1/supplychain-theme-installer": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:supplychain1/supplychain-theme-installer.git"
+        }
+    ]
 }
 ```
 to your composer.json
