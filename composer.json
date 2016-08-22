@@ -1,5 +1,5 @@
 {
-    "name": "everus/bolt-theme-installer-local",
+    "name": "everus/bolt-theme-installer",
     "description": "Custom installer for bolt themes.",
     "type": "composer-plugin",
     "require": {
@@ -12,9 +12,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"\\Everus\\Composer\\": "src/"}
+        "psr-4": {"Everus\\Composer\\": "src/"}
     },
     "extra": {
-        "class": "\\Everus\\Composer1\\ThemeInstallerPlugin"
+        "class": "Everus\\Composer\\ThemeInstallerPlugin"
     }
 }
