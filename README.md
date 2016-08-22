@@ -2,18 +2,11 @@
 ### Usage
 Just add
 ```json
-{    
-    "name": "supplychain1/theme-<packagename>",
-    "type": "bolt-template",
+{
+    "type": "bolt-theme",
     "require": {
-        "supplychain1/supplychain-theme-installer": "dev-master"
+        "everus/bolt-theme-installer": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:supplychain1/supplychain-theme-installer.git"
-        }
-    ]
 }
 ```
 to your composer.json

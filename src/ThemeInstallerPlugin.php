@@ -1,16 +1,16 @@
 <?php
 
-namespace SupplyChain\Composer;
+namespace Everus\Composer;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
-class TemplateInstallerPlugin implements PluginInterface
+class ThemeInstallerPlugin implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io)
     {
-        $installer = new TemplateInstaller($io, $composer);
+        $installer = new ThemeInstaller($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
 }

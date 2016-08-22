@@ -1,6 +1,6 @@
 {
-    "name": "supplychain1/supplychain-theme-installer",
-    "description": "Custom installer for supplychain theme.",
+    "name": "everus/bolt-theme-installer",
+    "description": "Custom installer for bolt themes.",
     "type": "composer-plugin",
     "require": {
         "composer-plugin-api": "^1.0"
@@ -12,9 +12,9 @@
         }
     ],
     "autoload": {
-        "psr-0": {"SupplyChain\\Composer": "src/"}
+        "psr-0": {"Everus\\Composer": "src/"}
     },
     "extra": {
-        "class": "SupplyChain\\Composer\\TemplateInstallerPlugin"
+        "class": "Everus\\Composer\\ThemeInstallerPlugin"
     }
 }
